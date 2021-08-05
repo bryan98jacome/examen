@@ -1,0 +1,452 @@
+body {
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+
+#Encabezado {
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1579306194872-64d3b7bac4c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1305&q=80");
+    background-color: rgba(255, 255, 255, 0.678);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuerpo
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+}
+
+.cuerpo > .td2
+{
+    padding: 0;
+    margin: 0;
+    color: brown;
+    font-size: 35px;
+    font-family: 'Reggae One', cursive;
+}
+
+.cuerpo > .td1 
+{
+    padding: 0;
+    margin: 0;
+    color: #8f2d56;
+    font-size: 30px;
+    font-weight:  bolder;
+    font-family: 'Dancing Script', cursive;
+}
+
+#inventario
+{
+    background: #ffc8dd;
+    color: #f08080;
+    border: 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s, box-shandow 0.25s, border-color 0.25s;
+}
+
+#inventario:hover
+{
+    border-color: #2ec4b6;
+    color: #2ec4b6;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em #2ec4b6;
+    transform: translateY(-0.3em);
+}
+
+.menu
+{
+    margin: 10px;
+    padding: 1em 2em;
+}
+
+.menu > a
+{
+    background: #ffc8dd;
+    color: #f08080;
+    border: 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 20px;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s, box-shandow 0.25s, border-color 0.25s;
+}
+
+.menu > a:hover{
+    border-color: #2ec4b6;
+    color: #2ec4b6;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em #2ec4b6;
+    transform: translateY(-0.3em);
+}
+
+button{
+    background: #ffc8dd;
+    color: #f08080;
+    border: 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 20px;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s, box-shandow 0.25s, border-color 0.25s;
+}
+
+button:hover{
+    border-color: #2ec4b6;
+    color: #2ec4b6;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em #2ec4b6;
+    transform: translateY(-0.3em);
+}
+
+
+
+
+.ImgInfor{
+    border: 5px solid #f9627d; 
+    margin-left: 20%;
+    margin-right: 5%;
+    transition: all 0.25s;
+}
+
+.ImgInfor:hover{
+    border: 5px solid brown; 
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.ImgProd{
+    transition: all 0.25s;
+}
+.ImgProd:hover{
+    border: 5px solid brown; 
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+#Informate img{
+    width: 400px;
+}
+
+#Informate {
+    width: 100%;
+    height: 550px;
+    background-color: #ffc8dd;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#Informate  h2{
+    padding: 0;
+    margin: 0;
+    color: #f9627d;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.informa
+{
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+}
+
+.informa > .td3 {
+    padding: 0;
+    margin: 0;
+    color: #8c1c13;
+    font-size: 35px;
+    justify-content: right;
+    font-weight:  bolder;
+    font-family: 'Reggae One', cursive;
+}
+
+.informa > .td4 {
+    font-family: cursive;
+    color: #df7373;
+}
+
+#Productos {
+    width: 100%;
+    height: 500px;  
+    background-color: #ffacc5;
+    color: #a39594;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+#Productos aside{
+    margin-left: 5%;
+    text-align: left;
+}
+#Productos h2{
+    color: #f9627d;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+#Productos h1{
+    color: #8c1c13;
+    font-size: 20px;
+    font-family: 'Reggae One', cursive;
+}
+#Productos h3{
+    font-family: cursive;
+    color: #9b4848;
+}
+#Productos p{
+    font-family: cursive;
+    color: #df7373;
+    margin-bottom: 30px;
+}
+#Productos figure{
+    text-align: center;
+}
+#Productos img{
+    width: 70%;
+    height: 100%;
+}
+
+#Contacto{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-color: #f7d6e0;
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+#Contacto h2{
+    color: #f9627d;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.contactos 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contactos > .td5{
+    color: #c65b7c;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.td6{
+    text-decoration: none;
+    color: #c65b7c;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.td7{
+    text-decoration: none;
+    color: #c65b7c;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#Pie {
+    width: 100%;
+    height: 70px;
+    background-size: cover;
+    background-color: black;
+    margin: 0 ;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Pie p {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+em {
+    padding: 0;
+    margin: 0;
+    color: violet;
+    font-family: 'Permanent Marker', cursive;
+}
+
+@media (max-width: 1000px){
+    .cuerpo > .td2{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #Informate{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #Informate img{
+        margin-right: 16%;
+        width: 40%;
+        height: 60%;
+    }
+    .informa{
+        margin-left: 20%;
+        text-align: center; 
+    }
+    #Productos aside{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-right: 5%;
+    }
+    #Productos {
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    #Productos img{
+        width: 20%;
+        height: 50%;
+    }
+    
+}
+
+#In
+{
+    background-color: palevioletred;
+    font-size: 80px;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+#Inv
+{
+    background-color: #e05780;
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+.listas > .menu{
+    text-align: right;
+    margin-right: 18%;
+}
+
+.mensaje
+{
+    margin-left: 10%;
+    font-weight:  bolder;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    color: rgb(180, 32, 32);
+}
+
+.encabezado{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #d55d92;
+    border-bottom: solid 5px #0F362D;
+    color: black;
+}
+.seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5%;
+}
+.tabla{
+    border-radius: 20px;
+    background-color: white;
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.cuerpo-tabla{
+    font-family:sans-serif;
+    text-align: center;
+}
+.cuerpo-tabla:nth-child(even){
+    background-color: #e7ecef;
+}
+
+.formulario{
+    width: 400px;
+    padding: 20px;
+    background:#d55d918a;
+    border-radius: 20px;
+    font-family: 'Reggae One', cursive;
+    font-weight:  bolder;
+    color: #11151c;
+}
+
+.inputs{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid #ff6392;
+    color: blanchedalmond;
+    outline: none;
+    font-family:sans-serif;
+    font-size: 15px;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.507);
+}
+
+.b-formulario{
+    width: 100%;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family:sans-serif;
+    font-size: 15px;
+    padding: 6px;
+    background: #ff6392;
+    transition:  all 0.2s;
+}
+.b-formulario:hover{
+    background-color:  rgb(62, 78, 107);
+    border: solid rgb(57, 65, 80) 2px;
+    cursor: pointer;
+}
+
+
+.cuerpo-tabla > td > a{
+    margin-right: 3%;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight:  bolder;
+    color:rgb(103, 110, 204);
+    border-radius: 100px;
+    transition:  all 0.5s;
+}
+.cuerpo-tabla > td> a:hover{
+    color: rgb(211, 81, 81);
+}

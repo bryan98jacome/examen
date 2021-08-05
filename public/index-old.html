@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Conexión</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css?2021">
+</head>
+<body>
+    <section id= "Encabezado">
+        <table>
+            
+            <tr class="cuerpo">
+                <td class="td1">TD1</td>
+                <td class="td2">TD2</td>
+            </tr>
+                            
+        </table>
+        <button>EXPLORAR</button>
+    </section>
+    <section id ="Informate">
+        <img class = "ImgInfor" src="https://images.unsplash.com/photo-1587015692860-f3a8481e9865?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=709&q=80" alt="">   
+        <aside>
+            <h2>A cerca de nosotros</h2>
+            <table >
+                
+                <tr class="informa">
+                    <td class="td3">TD3</td>
+                    <td class="td4">TD4</td>
+                </tr>
+                              
+                <tr>
+                    <td colspan="5">Aún no se ha creado tareas!</td>
+                </tr>
+                       
+            </table>
+            <button>Más información</button>
+        </aside>
+    </section>
+    
+    <section id = "Productos">
+        <aside>
+            <h2>Revisa</h2>
+            <h1>Nuestros productos</h1>
+            <p>Estos son algunos de los diseños que te pueden encantar, adquiere ya un pastele para la personita que tanto quieres!</p>
+            <a id="inventario" href="#">INVENTARIO</a>
+        </aside>
+        <div>
+            <figure>
+                <img class="ImgProd" src="https://images.unsplash.com/photo-1559553156-2e97137af16f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=673&q=80" alt="">
+                <h3>Pastel de chocolate con fruta</h3>
+                <h2>$14.99</h2>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=580&q=80" alt="">
+                <h3>Pastel para quincianera</h3>
+                <h2>$19.99</h2>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1525257831700-183b9b8bf5c4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80" alt="">
+                <h3>Pastel para boda</h3>
+                <h2>$24.99</h2>
+            </figure>
+        </div>   
+    </section>
+    
+    <section id = "Contacto">
+        <h2>&#11165 Dirección</h2>
+        <!--<p>La Victoria - Pujilí. Barrio Centro, 11 de Noviembre</p>-->
+        <table >
+           
+            <tr class="contactos">
+                <td class="td5"><?php echo $fila['direccion'] ?></td>
+            </tr>
+                            
+            <tr>
+                <td colspan="5">Aún no se ha creado tareas!</td>
+            </tr>
+                        
+        </table>
+        <h2>&#x2709 Email</h2>
+        <email>
+        <!--<p> <a href="mailto:email@email.com">email@email.com</a> </p>-->
+        <table >
+               
+            <tr class="contactos">
+                <td>
+                    <a href="mailto:email@email.com" class="td6"><?php echo $fila['email'] ?></a>
+                </td>
+                                        
+            </tr>
+                               
+            <tr>
+                <td colspan="5">Aún no se ha creado tareas!</td>
+            </tr>
+                        
+        </table>
+        <h2>&#9743 Teléfono</h2>
+        <!--<p> <a href="tel:(+593) 98 323 13">(+593) 98 323 1313</a></p>-->
+        <table >
+            
+            <tr class="contactos">
+                <td>
+                    <a href="tel:(+593) 98 323 13"class="td7"><?php echo $fila['telefono'] ?></a>
+                </td>                
+            </tr>
+                              
+            <tr>
+                <td colspan="5">Aún no se ha creado tareas!</td>
+            </tr>
+                            
+        </table>
+    </section>
+    
+    <section id = "Pie">
+        <p>&#169 <em> DULCE CONEXIÓN! </em> DERECHOS RESERVADOS</p>
+        
+    </section>
+    
+</body>
+</html>
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
